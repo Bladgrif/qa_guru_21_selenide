@@ -36,7 +36,7 @@ public class FindJUnit5 {
         $("#wiki-pages-box button").click();
         $("#wiki-pages-box").$(byText("SoftAssertions")).click();
         $("#wiki-body").$(byText("3. Using JUnit5 extend test class:")).sibling(0).shouldHave(text(codeJunit5));
-        sleep(5000);
+//        sleep(5000);
 
 
     }
